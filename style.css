@@ -9,6 +9,7 @@ body {
   height: 100vh;
 }
 .slider-container {
+  position: relative;
   width: 50rem;
   height: 30rem;
   overflow: hidden;
@@ -18,4 +19,22 @@ body {
 .image-container {
   display: flex;
   /* transform: translateX(-100rem); */
+}
+.btn {
+  position: absolute;
+  color: #fff;
+  font-size: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+  cursor: pointer;
+}
+.next {
+  right: 1rem;
+}
+.prev {
+  left: 1rem;
+}
+.btn:hover {
+  opacity: 1;
 }
