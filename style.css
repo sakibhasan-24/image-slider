@@ -7,6 +7,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  background-color: rgb(150, 200, 201, 0.8);
 }
 .slider-container {
   position: relative;
@@ -14,10 +15,11 @@ body {
   height: 30rem;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 6px 12px rgba(0, 99, 47, 0.9);
 }
 .image-container {
   display: flex;
+  transition: transform 0.9s ease-in-out;
   /* transform: translateX(-100rem); */
 }
 .btn {

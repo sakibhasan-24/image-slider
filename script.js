@@ -14,9 +14,9 @@ nextBtn.addEventListener("click", function () {
   imgContainer.style.transform = `translateX(-${(currentImg - 1) * 50}rem)`;
 });
 prevBtn.addEventListener("click", function () {
-  currentImg--;
   if (currentImg === 1) {
     currentImg = allImg.length;
   }
+  currentImg--;
   imgContainer.style.transform = `translateX(-${(currentImg - 1) * 50}rem)`;
 });
